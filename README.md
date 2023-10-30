@@ -22,7 +22,7 @@ Det är möjligt att injicera HTML-kod i /dvwa/vulnerabilities/xss_s/ som dirige
 7. Skriv valfritt ord i fältet Name
 8. Högerklicka i fältet Message och välj Inspect
 9. Ändra maxlength=”50” till maxlength=”70”
-10. Skriv följande i fältet Message: <meta http-equiv="refresh" content="0;url='https://google.com'" />
+10. Skriv följande i fältet Message: `<meta http-equiv="refresh" content="0;url='https://google.com'" />`
 11. Tryck på Sign Guestbook
 12. Sidan kommer nu att omdirigera till google.com varje gång någon går till /dvwa/vulnerabilities/xss_s/
 
@@ -35,4 +35,16 @@ En hotaktör kan lätt peka om sidan till sin egna klon för att till exempel ko
 Genom att aktivt sanera inmatningen från specialtecken och till exempel genom att URL koda alla tecken så får man effektivt bort möjligheten till HTML injicering samt XSS.
 
 <h2>I bilder</h2>
-<img src="https://imgur.com/a/8FUlsrF" height="80%" width="80%" alt="HTML Injection Steg"/>
+
+<img src="https://imgur.com/s4Wz5Y8.png" height="80%" width="80%" alt="HTML Injection Steg"/>
+<br>
+<img src="https://imgur.com/kUAeGUh.png" height="80%" width="80%" alt="HTML Injection Steg"/>
+<br>
+<img src="https://imgur.com/PmYndLV.png" height="80%" width="80%" alt="HTML Injection Steg"/>
+<br>
+<img src="https://imgur.com/wlVHlmp.png" height="80%" width="80%" alt="HTML Injection Steg"/>
+<br>
+<img src="https://imgur.com/Bxp4evz.png" height="80%" width="80%" alt="HTML Injection Steg"/>
+<br>
+<img src="https://imgur.com/FcgDZPg.png" height="80%" width="80%" alt="HTML Injection Steg"/>
+
