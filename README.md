@@ -32,7 +32,7 @@ En hotaktör kan lätt peka om sidan till sin egna klon för att till exempel ko
 
 
 <h2>Motverkan</h2>
-Genom att aktivt sanera inmatningen från specialtecken och till exempel genom att URL koda alla tecken så får man effektivt bort möjligheten till HTML injicering samt XSS.
+Genom att aktivt sanera inmatningen från specialtecken, till exempel med hjälp av att URL koda alla tecken så får man effektivt bort möjligheten till HTML injicering samt XSS.
 
 <h2>I bilder</h2>
 
